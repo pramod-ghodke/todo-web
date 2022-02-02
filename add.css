@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .blurred {
+        filter: blur(3px);
+    }
+    
+    .add-new {
+        border: 2px solid red;
+        border-radius: 15px;
+        padding: 15px 30px 40px 30px;
+        background: white;
+        box-shadow: 2px 4px 15px 1px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .add-new input {
+        padding: 5px;
+        outline: none;
+        border: 1px solid red;
+        border-radius: 10px;
+    }
+    
+    .add-new .button {
+        margin-top: 20px;
+    }
+    
+    .add-new .btn-add {
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 6px 16px;
+        font-size: 16px;
+        margin-right: 5px;
+        text-decoration: none;
+    }
+    
+    .add-new .btn-back {
+        background: white;
+        color: red;
+        border: 1px solid red;
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    .container .add-list i:hover {
+        font-size: 30px;
+    }
+    
+    .container .cards .box .plus:hover {
+        font-size: 30px;
+    }
+    
+    .back i:hover {
+        font-size: 28px;
+    }
+    
+    .fixed-bottom {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: white;
+        text-align: center;
+        box-shadow: -2px 4px 15px 1px rgba(0, 0, 0, 0.2);
+    }
+    
+    .fixed-bottom h5 {
+        margin: 12px 0px;
+    }
